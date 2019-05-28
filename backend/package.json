@@ -1,0 +1,26 @@
+{
+    "name": "portafolio",
+    "version": "1.0.0",
+    "description": "Portafolio de jgu7man",
+    "main": "index.js",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "connect-multiparty": "^2.2.0",
+        "express": "^4.17.0",
+        "firebase": "^6.0.3",
+        "firebase-admin": "^8.0.0",
+        "mongoose": "^5.5.11",
+        "pring-admin": "^0.7.3"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.0",
+        "@types/node": "^10.9.2",
+        "typescript": "^3.0.3"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "author": "jgu7man",
+    "license": "MIT"
+}
